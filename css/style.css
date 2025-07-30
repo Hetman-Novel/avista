@@ -510,6 +510,32 @@ body strong {
   font-weight: 700;
 }
 
+body.page-template-get-in-touch-page .first-screen {
+  border-bottom: none;
+}
+
+body.page-template-get-in-touch-page .first-screen .n_container {
+  padding-top: 189px;
+}
+
+body.page-template-get-in-touch-page .first-screen h1 {
+  max-width: 100%;
+  margin-bottom: 34px;
+}
+
+body.page-template-get-in-touch-page .first-screen__illustration {
+  left: 0;
+  right: auto;
+}
+
+body.page-template-get-in-touch-page .contact {
+  padding-top: 135px;
+}
+
+body.page-template-get-in-touch-page .footer__illustration {
+  display: none;
+}
+
 /*
 .breadcrumbs {
 	display: flex;
@@ -2003,6 +2029,15 @@ body._touch .header .menu__list > li._active .menu__arrow {
   text-transform: uppercase;
 }
 
+.contact__desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 510px;
+  margin-bottom: 89px !important;
+  margin-top: 32px;
+}
+
 .contact__content {
   padding-left: 322px;
 }
@@ -2436,6 +2471,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   body::-webkit-scrollbar-thumb {
     background-color: #bebebe;
+  }
+
+  body.page-template-get-in-touch-page .first-screen h1 span {
+    margin: 32px 0 -2px 0 !important;
   }
 
   .first-screen h1 span {
@@ -3329,6 +3368,20 @@ body._touch .header .menu__list > li._active .menu__arrow {
     font-size: 16px;
   }
 
+  body.page-template-get-in-touch-page .first-screen .n_container {
+    padding-bottom: 12px;
+    padding-top: 160px;
+  }
+
+  body.page-template-get-in-touch-page .first-screen p {
+    display: block;
+    padding-left: 0;
+  }
+
+  body.page-template-get-in-touch-page .contact {
+    padding-top: 100px;
+  }
+
   .n_container.vertical-line {
     left: 230px;
   }
@@ -3400,6 +3453,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .contact__subTitle {
     margin-top: 39px;
+  }
+
+  .contact__desc {
+    display: none;
   }
 
   .contact__content {
@@ -3508,6 +3565,27 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   body p:not(:last-child) {
     margin-bottom: 12px;
+  }
+
+  body.page-template-get-in-touch-page .first-screen .n_container {
+    padding-top: 104px;
+  }
+
+  body.page-template-get-in-touch-page .first-screen h1 {
+    margin-bottom: 40px;
+  }
+
+  body.page-template-get-in-touch-page .first-screen p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  body.page-template-get-in-touch-page .contact {
+    padding-top: 30px;
+  }
+
+  body.page-template-get-in-touch-page .contact__title {
+    font-size: 24px;
   }
 
   .n_container {
