@@ -66,4 +66,18 @@ document.addEventListener('DOMContentLoaded', function () {
          }
       });
    });
+
+   // button
+   document.querySelectorAll('.contact__content').forEach(form => {
+      const checkbox = form.querySelector('input[type="checkbox"]');
+      const button = form.querySelector('input[type="submit"]');
+
+      if (checkbox && button) {
+         const toggleButton = () => {
+            button.disabled = !checkbox.checked;
+         };
+         toggleButton();
+         checkbox.addEventListener('change', toggleButton);
+      }
+   });
 });
