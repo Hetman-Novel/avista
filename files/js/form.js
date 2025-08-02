@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
    // button
    document.querySelectorAll('.contact__content').forEach(form => {
       const checkbox = form.querySelector('input[type="checkbox"]');
-      const button = form.querySelector('input[type="submit"]');
+      const button = form.querySelector('button[type="submit"]');
 
       if (checkbox && button) {
          const toggleButton = () => {
